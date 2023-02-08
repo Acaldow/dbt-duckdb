@@ -13,6 +13,8 @@ duckdb = "0.6.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
+black = "^23.1.0"
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core"]
