@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-duckdb"
+version = "0.1.0"
+description = ""
+authors = ["Arnaud Caldow <arnaud.caldow@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dbt_duckdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
